@@ -1,6 +1,6 @@
 {
   "name": "simple-http-status-codes",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A lightweight package for handling HTTP status codes",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

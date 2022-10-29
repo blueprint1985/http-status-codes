@@ -7,7 +7,7 @@ export default class HttpCode {
 
     constructor(code: number) {
         const httpCode = httpCodes.filter((c: HttpCodeModel) => {
-            c.code === code;
+            return c.code === code;
         })[0];
 
         if (httpCode === undefined) {
@@ -23,7 +23,7 @@ export default class HttpCode {
 
     setCode(code: number) {
         const httpCode = httpCodes.filter((c: HttpCodeModel) => {
-            c.code === code;
+            return c.code === code;
         })[0];
 
         if (httpCode === undefined) {
