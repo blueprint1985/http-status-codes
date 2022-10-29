@@ -1,15 +1,23 @@
 {
   "name": "simple-http-status-codes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight package for handling HTTP status codes",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build" : "tsc"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/blueprint1985/http-status-codes.git"
+  },
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./build/index.d.ts",
+      "default": "./build/index.js"
+    },
+    "./package.json": "./package.json"
   },
   "keywords": [
     "http",
@@ -24,7 +32,6 @@
   },
   "homepage": "https://github.com/blueprint1985/http-status-codes#readme",
   "devDependencies": {
-    "typescript": "^4.8.4"
-  },
-  "files": ["lib/**/*"]
+    "typescript": "4.8.4"
+  }
 }

@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "outDir": "./lib",
+    "outDir": "./build",
     "target": "es5",
     "esModuleInterop": true,
     "module": "commonjs",
@@ -17,6 +17,6 @@
     "src/**/*"
   ],
   "exclude": [
-    "node_modulse"
+    "node_modules"
   ]
 }

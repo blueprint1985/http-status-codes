@@ -13,7 +13,7 @@ npm install --save simple-http-status-codes
 
 Most basic usage:
 ```ts
-import HttpCode from "http-status-codes";
+import HttpCode from "simple-http-status-codes";
 
 export const checkCode = (): boolean => {
     const httpCode: HttpCode = new HttpCode(200);
