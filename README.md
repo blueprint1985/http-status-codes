@@ -6,7 +6,7 @@ A simple library for using HTTP status codes
 
 Install it from [npm](https://github.com/npm/cli) and include it in your React build process (using [Webpack](https://webpack.js.org/), [Browserify](http://browserify.org/), etc):
 ```sh
-npm install --save http-status-codes
+npm install --save simple-http-status-codes
 ```
 
 ## Usage
