@@ -1,0 +1,30 @@
+{
+  "name": "http-status-codes",
+  "version": "1.0.0",
+  "description": "A lightweight package for handling HTTP status codes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" : "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blueprint1985/http-status-codes.git"
+  },
+  "keywords": [
+    "http",
+    "status",
+    "codes",
+    "statuscodes"
+  ],
+  "author": "Martin Björling",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blueprint1985/http-status-codes/issues"
+  },
+  "homepage": "https://github.com/blueprint1985/http-status-codes#readme",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  },
+  "files": ["lib/**/*"]
+}
