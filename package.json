@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blueprint1985/http-status-codes.git"
+    "url": "git+https://github.com/blueprint1985/simple-http-status-codes.git"
   },
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
@@ -28,9 +28,9 @@
   "author": "Martin Björling",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/blueprint1985/http-status-codes/issues"
+    "url": "https://github.com/blueprint1985/simple-http-status-codes/issues"
   },
-  "homepage": "https://github.com/blueprint1985/http-status-codes#readme",
+  "homepage": "https://github.com/blueprint1985/simple-http-status-codes#readme",
   "devDependencies": {
     "typescript": "4.8.4"
   }
